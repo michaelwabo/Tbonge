@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="Practice_makes_perfect.Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div style="width: 100%; height: 77px; background-color: forestgreen;">
+                <asp:Image ID="Image1" runat="server" ImageUrl="/img/logo.png" Width="100px" />
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
+            <asp:Label ID="Label1" runat="server" ForeColor="Green" Text="User Portal" Width="100%"></asp:Label>
+        </div><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button8" runat="server" BackColor="Black" ForeColor="Gold" OnClick="Button8_Click" Text="Logout" />
+            <br />
+            <br />
+            <div style="width:25%; height: 369px; background-color:aqua; float: left; padding: 10px;">
+
+                <asp:Button ID="Button1" runat="server" Text="Send Money" Width="194px" OnClick="Button1_Click" CssClass="button"  />
+                <br />
+                <br />
+                <asp:Button ID="Button2" runat="server" Text="Withdraw Cash" Width="193px" OnClick="Button2_Click" CssClass="button" />
+                <br />
+                <br />
+                <asp:Button ID="Button3" runat="server" Text="Pay With Tbonge" Width="193px" OnClick="Button3_Click" CssClass="button" />
+                <br />
+                <br />
+                <asp:Button ID="Button4" runat="server" Text="Savings" Width="193px" OnClick="Button4_Click" CssClass="button" />
+                <br />
+                <br />
+                <asp:Button ID="Button5" runat="server" Text="Loans" Width="192px" OnClick="Button5_Click" CssClass="button" />
+                <br />
+                <br />
+                <asp:Button ID="Button6" runat="server" Text="History" Width="192px" OnClick="Button6_Click" CssClass="button" />
+                <br />
+                <br />
+                <asp:Button ID="Button7" runat="server" Text="Account Profile" Width="193px" OnClick="Button7_Click" CssClass="button" />
+
+            </div>
+            <div style="width: 70%; height:300px; float: right; background-color: white;" >
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+            </div>
+            <div style="width: 100%; height: 100px; background-color: forestgreen; position:relative; margin-top: 320px;">
+
+                <br />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label2" runat="server" Text="&amp;copy Sahara Analytica LTD"></asp:Label>
+
+            </div>
+        </div>
+        
+    </form>
+</body>
+</html>

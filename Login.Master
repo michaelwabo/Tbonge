@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="Practice_makes_perfect.Login" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div style="width: 100%; height: 77px; background-color: forestgreen;">
+                <asp:Image ID="Image1" runat="server" ImageUrl="/img/logo.png" Width="100px" />
+            
+            <asp:Label ID="Label1" runat="server" ForeColor="Green" Text="The Worlds First Web Based Economy Management Software" Width="100%"></asp:Label>
+        </div><br />
+            <div style="width:100%; height:100px;">
+                
+                    <br />
+                    <br />
+                
+                    <asp:Button ID="Button1" runat="server" Text="User login" OnClick="Button1_Click" Width="188px" CssClass="button" />
+                
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Agent Login" Width="170px" CssClass="button" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Business Login" Width="178px" CssClass="button" />
+            </div>
+            <div style="width: 70%; height:300px; margin-left:100px; margin-top:50px; background-color: white;" >
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+            </div>
+            <div style="width: 100%; height: 100px; background-color: forestgreen; position:relative; margin-top: 320px;">
+
+                <br />
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:Label ID="Label2" runat="server" Text="&amp;copy Sahara Analytica LTD"></asp:Label>
+
+            </div>
+        </div>
+        
+    </form>
+</body>
+</html>
